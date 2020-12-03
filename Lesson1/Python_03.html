@@ -7,24 +7,29 @@
 </head>
 <body>
     <h1>HOW-TO: Программа на Python, Часть 3</h1>
-    <li style="margin-left: 40px"><em>Программа на Python &mdash; часть 1</em></li>
-    <li style="margin-left: 40px"><em>Программа на Python &mdash; часть 2</em></li>
-    <li style="margin-left: 40px"><em>Программа на Python &mdash; часть 3</em></li>
-    <h2>Содержание</h2>
+    <ul>
+        <li><em><a href="Python_01.html">Программа на Python &mdash; часть 1</a></em></li>
+        <li><em><a href="Python_02.html">Программа на Python &mdash; часть 2</a></em></li>
+        <li><em><a href="Python_03.html">Программа на Python &mdash; часть 3</a></em></li>
+    </ul>
+    <h2><a name="Menu">Содержание</a></h2>
     <h3>HOW-TO: Программа на Python, Часть 3</h3>
-    <li style="margin-left: 40px"><u>Модули</u></li>
-    <li style="margin-left: 40px"><u>Функции</u></li>
+    <ul>
+        <li><a href="#Chapter1">Модули</a></li>
+        <li><a href="#Chapter2">Функции</a></li>
+    </ul>
     <hr>
     <p>В прошлый раз мы изучали списки, подстановку переменных, комментарии, сравнение и
         присвоение, операторы <b>if</b> и <b>while</b>. Я обещал, что в этой части мы изучим модули и
         функции. Давайте начнём.</p>
-    <h2>Модули</h2>
+    <h2><a name="Chapter1">Модули</a></h2>
+    <a href="#Menu">К содержанию</a>
     <p style="margin-bottom: 2em">Модули предлагают способ расширить программирование на Python. Вы можете создать
     свои модули, использовать те, которые поставляются с Python или которые написали
     другие. В самом Python есть сотни модулей, которые облегчают написание программ.
-    Список модулей, поставляемых с Python, находится по адресу:<a href="http://docs.python.org/modindex.html"><em>http://docs.python.org/modindex.html</em></a>. Некоторые модули предназначены для определённых
+    Список модулей, поставляемых с Python, находится по адресу:<a href="http://docs.python.org/modindex.html" target="_blank"><em>http://docs.python.org/modindex.html</em></a>. Некоторые модули предназначены для определённых
     операционных систем, но большинство из них кроссплатформенные и работают
-    одинаково на <u>Linux</u>, <u>Mac</u> и <u>Microsoft Windows</u>. Для использования внешнего модуля
+    одинаково на <a href="https://ru.wikipedia.org/wiki/Linux" target="_blank">Linux</a>, <a href="https://ru.wikipedia.org/wiki/Macintosh" target="_blank">Mac</a> и <a href="https://ru.wikipedia.org/wiki/Windows" target="_blank">Microsoft Windows</a>. Для использования внешнего модуля
     необходимо импортировать его в программу. Один из модулей, поставляемых с Python,
     называется «random». Он даёт возможность генерировать псевдослучайные числа. Мы
     используем этот модуль в нашем первом примере.</p>
@@ -40,7 +45,8 @@ for cntr in range(1,15):
         мы говорили в прошлый раз. Пятая строка говорит Python, что нужно использовать
         модуль «random». Мы должны явно указать Python на это.</p>
         <hr>
-    <h2>Функции</h2>
+    <h2><a name="Chapter2"></a>Функции</a></h2>
+    <a href="#Menu">К содержанию</a>
     <p>Когда мы импортировали модуль random, мы использовали функцию <b>randint()</b>. Функция
     — это блок кода, который создан для того, чтобы вызывать его в программе, обычно,
     более одного раза. Это упрощает работу над программой и предотвращает набор одного и
